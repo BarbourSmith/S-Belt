@@ -29,6 +29,50 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "GT2 Belt Approximation",
+            "x": 0.19399707174231332,
+            "y": 0.6743295019157088,
+            "uniqueID": 166032,
+            "projectID": "229325783",
+            "ioValues": [
+                {
+                    "name": "Dist Between Centers",
+                    "ioValue": 40
+                },
+                {
+                    "name": "Sprocket One Size",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Sprocket 2 Size",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "GT2 Belt Approximation",
+            "x": 0.3711566617862372,
+            "y": 0.7279693486590038,
+            "uniqueID": 567284,
+            "projectID": "229325783",
+            "ioValues": [
+                {
+                    "name": "Dist Between Centers",
+                    "ioValue": 40
+                },
+                {
+                    "name": "Sprocket One Size",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Sprocket 2 Size",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
