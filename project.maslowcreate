@@ -59,11 +59,11 @@
             "ioValues": [
                 {
                     "name": "Dist Between Centers",
-                    "ioValue": 40
+                    "ioValue": 67.5
                 },
                 {
                     "name": "Sprocket One Size",
-                    "ioValue": 11
+                    "ioValue": 14
                 },
                 {
                     "name": "Sprocket 2 Size",
