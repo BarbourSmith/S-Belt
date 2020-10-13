@@ -639,7 +639,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -48
+                            "ioValue": -38
                         }
                     ]
                 },
@@ -682,7 +682,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 67.5
+                            "ioValue": 69
                         },
                         {
                             "name": "yDist",
