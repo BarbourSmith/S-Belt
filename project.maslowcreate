@@ -19,6 +19,10 @@
                     "ioValue": 83
                 },
                 {
+                    "name": "Offset",
+                    "ioValue": 7
+                },
+                {
                     "name": "Sprocket One Size",
                     "ioValue": 14.134254764454372
                 },
@@ -62,6 +66,10 @@
                     "ioValue": 67.5
                 },
                 {
+                    "name": "Offset",
+                    "ioValue": 7
+                },
+                {
                     "name": "Sprocket One Size",
                     "ioValue": 14
                 },
@@ -82,6 +90,10 @@
                 {
                     "name": "Dist Between Centers",
                     "ioValue": 40
+                },
+                {
+                    "name": "Offset",
+                    "ioValue": 7
                 },
                 {
                     "name": "Sprocket One Size",
