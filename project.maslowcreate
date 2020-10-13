@@ -80,10 +80,18 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5614934114202049,
+            "y": 0.22605363984674332,
+            "uniqueID": 611761,
+            "ioValues": []
+        },
+        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.6222547584187408,
-            "y": 0.4942528735632184,
+            "x": 0.5161054172767203,
+            "y": 0.47126436781609193,
             "uniqueID": 781994,
             "ioValues": [
                 {
@@ -159,8 +167,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.5021961932650073,
-            "y": 0.7318007662835249,
+            "x": 0.4633967789165447,
+            "y": 0.7432950191570881,
             "uniqueID": 295637,
             "ioValues": [
                 {
@@ -208,6 +216,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 108613,
+            "ap2ID": 611761
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
             "ap1ID": 588306,
@@ -219,6 +234,13 @@
             "ap2Primary": true,
             "ap1ID": 875852,
             "ap2ID": 588306
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 781994,
+            "ap2ID": 611761
         },
         {
             "ap1Name": "geometry",
