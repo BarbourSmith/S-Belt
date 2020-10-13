@@ -7,36 +7,10 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "GitHubMolecule",
-            "name": "GT2 Belt Approximation",
-            "x": 0.11566617862371889,
-            "y": 0.3409961685823755,
-            "uniqueID": 813095,
-            "projectID": "229325783",
-            "ioValues": [
-                {
-                    "name": "Dist Between Centers",
-                    "ioValue": 83
-                },
-                {
-                    "name": "Offset",
-                    "ioValue": 7
-                },
-                {
-                    "name": "Sprocket One Size",
-                    "ioValue": 14.134254764454372
-                },
-                {
-                    "name": "Sprocket 2 Size",
-                    "ioValue": 86.07228904199107
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Segment 1",
-            "x": 0.2569546120058565,
-            "y": 0.5134099616858238,
+            "x": 0.17642752562225475,
+            "y": 0.2720306513409962,
             "uniqueID": 296327,
             "ioValues": [],
             "topLevel": false,
@@ -142,7 +116,12 @@
                     "ap1ID": 601635,
                     "ap2ID": 797871
                 },
-                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 797871
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -168,6 +147,98 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.3462664714494876,
+            "y": 0.45210727969348663,
+            "uniqueID": 209770,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Segment 2",
+            "x": 0.17935578330893118,
+            "y": 0.7471264367816093,
+            "uniqueID": 819931,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.15080527086383602,
+                    "y": 0.2720306513409962,
+                    "uniqueID": 907698,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 14
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.2979502196193265,
+                    "y": 0.32567049808429116,
+                    "uniqueID": 710436,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 67.5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2518301610541728,
+                    "y": 0.7586206896551725,
+                    "uniqueID": 429251,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 907698,
+                    "ap2ID": 710436
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -175,7 +246,21 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 296327,
+            "ap2ID": 209770
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 209770
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": 2
