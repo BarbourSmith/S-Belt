@@ -639,7 +639,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -38
+                            "ioValue": -33
                         }
                     ]
                 },
@@ -652,7 +652,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 50
+                            "ioValue": 10
                         },
                         {
                             "name": "y length",
@@ -703,7 +703,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 25
+                            "ioValue": 5
                         },
                         {
                             "name": "yDist",
@@ -724,7 +724,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 50
+                            "ioValue": 10
                         }
                     ],
                     "evolve": false,
@@ -740,7 +740,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 50
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": "L/2"
@@ -798,12 +798,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 804281
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 602392,
@@ -829,6 +823,12 @@
                     "ap2Primary": false,
                     "ap1ID": 854147,
                     "ap2ID": 804281
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 854147
                 },
                 {
                     "ap1Name": "geometry",
