@@ -76,6 +76,32 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "GT2 Belt Approximation",
+            "x": 0.43191800878477304,
+            "y": 0.8084291187739464,
+            "uniqueID": 773210,
+            "projectID": "229325783",
+            "ioValues": [
+                {
+                    "name": "Dist Between Centers",
+                    "ioValue": 40
+                },
+                {
+                    "name": "Offset",
+                    "ioValue": 7
+                },
+                {
+                    "name": "Sprocket One Size",
+                    "ioValue": 10.1
+                },
+                {
+                    "name": "Sprocket 2 Size",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
