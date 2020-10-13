@@ -7,17 +7,24 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.2130307467057101,
-            "y": 0.4636015325670498,
-            "uniqueID": 770462,
-            "ioValues": [
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.2569546120058565,
+            "y": 0.5134099616858238,
+            "uniqueID": 296327,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "name": "diameter",
-                    "ioValue": 10
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
-            ]
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Output",
