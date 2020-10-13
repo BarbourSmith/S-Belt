@@ -9,98 +9,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "GT2 Belt Approximation",
-            "x": 0.11054172767203513,
-            "y": 0.4137931034482759,
-            "uniqueID": 166032,
-            "projectID": "229325783",
-            "ioValues": [
-                {
-                    "name": "Dist Between Centers",
-                    "ioValue": 83
-                },
-                {
-                    "name": "Offset",
-                    "ioValue": 7
-                },
-                {
-                    "name": "Sprocket One Size",
-                    "ioValue": 14.134254764454372
-                },
-                {
-                    "name": "Sprocket 2 Size",
-                    "ioValue": 86.07228904199107
-                }
-            ]
-        },
-        {
-            "atomType": "Union",
-            "name": "Union",
-            "x": 0.5043923865300146,
-            "y": 0.26436781609195403,
-            "uniqueID": 396291,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "GT2 Belt Approximation",
-            "x": 0.2459736456808199,
-            "y": 0.632183908045977,
-            "uniqueID": 267973,
-            "projectID": "229325783",
-            "ioValues": [
-                {
-                    "name": "Dist Between Centers",
-                    "ioValue": 67.5
-                },
-                {
-                    "name": "Offset",
-                    "ioValue": 0
-                },
-                {
-                    "name": "Sprocket One Size",
-                    "ioValue": 14
-                },
-                {
-                    "name": "Sprocket 2 Size",
-                    "ioValue": 86.07228904199107
-                }
-            ]
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.5666178623718887,
-            "y": 0.5210727969348659,
-            "uniqueID": 630343,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "GT2 Belt Approximation",
-            "x": 0.43191800878477304,
-            "y": 0.8084291187739464,
+            "x": 0.1383601756954612,
+            "y": 0.1685823754789272,
             "uniqueID": 773210,
             "projectID": "229325783",
             "ioValues": [
@@ -123,6 +33,113 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.2789165446559297,
+            "y": 0.13409961685823754,
+            "uniqueID": 630343,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 67.5
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "GT2 Belt Approximation",
+            "x": 0.07759882869692533,
+            "y": 0.3065134099616858,
+            "uniqueID": 166032,
+            "projectID": "229325783",
+            "ioValues": [
+                {
+                    "name": "Dist Between Centers",
+                    "ioValue": 83
+                },
+                {
+                    "name": "Offset",
+                    "ioValue": 7
+                },
+                {
+                    "name": "Sprocket One Size",
+                    "ioValue": 14.134254764454372
+                },
+                {
+                    "name": "Sprocket 2 Size",
+                    "ioValue": 86.07228904199107
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "GT2 Belt Approximation",
+            "x": 0.17642752562225475,
+            "y": 0.37931034482758624,
+            "uniqueID": 267973,
+            "projectID": "229325783",
+            "ioValues": [
+                {
+                    "name": "Dist Between Centers",
+                    "ioValue": 67.5
+                },
+                {
+                    "name": "Offset",
+                    "ioValue": 0
+                },
+                {
+                    "name": "Sprocket One Size",
+                    "ioValue": 14
+                },
+                {
+                    "name": "Sprocket 2 Size",
+                    "ioValue": 86.07228904199107
+                }
+            ]
+        },
+        {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.3953147877013177,
+            "y": 0.13793103448275862,
+            "uniqueID": 396291,
+            "ioValues": [
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3162518301610542,
+            "y": 0.6743295019157088,
+            "uniqueID": 875852,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -131,6 +148,20 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 773210,
+            "ap2ID": 630343
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 630343,
+            "ap2ID": 396291
+        },
         {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
@@ -144,13 +175,6 @@
             "ap2Primary": false,
             "ap1ID": 267973,
             "ap2ID": 396291
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 773210,
-            "ap2ID": 630343
         }
     ],
     "fileTypeVersion": 1,
