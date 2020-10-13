@@ -639,7 +639,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 48
+                            "ioValue": -48
                         }
                     ]
                 },
@@ -682,11 +682,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 30
+                            "ioValue": 67.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -31
+                            "ioValue": 7.5
                         },
                         {
                             "name": "zDist",
@@ -697,8 +697,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.34260614934114203,
-                    "y": 0.7049808429118775,
+                    "x": 0.3360175695461201,
+                    "y": 0.7279693486590038,
                     "uniqueID": 926800,
                     "ioValues": [
                         {
