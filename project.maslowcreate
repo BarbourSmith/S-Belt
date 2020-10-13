@@ -18,8 +18,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.15373352855051245,
-                    "y": 0.49808429118773945,
+                    "x": 0.10907759882869693,
+                    "y": 0.23371647509578544,
                     "uniqueID": 191838,
                     "ioValues": [
                         {
@@ -29,10 +29,36 @@
                     ]
                 },
                 {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 0.4158125915080527,
+                    "y": 0.43295019157088127,
+                    "uniqueID": 887400,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "closedSelection": 0
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.44582723279648606,
-                    "y": 0.5517241379310345,
+                    "x": 0.19912152269399705,
+                    "y": 0.6666666666666666,
                     "uniqueID": 479807,
                     "ioValues": [
                         {
@@ -41,7 +67,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 7.5
                         },
                         {
                             "name": "zDist",
@@ -52,8 +78,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.32723279648609077,
-                    "y": 0.6781609195402298,
+                    "x": 0.08125915080527087,
+                    "y": 0.8237547892720306,
                     "uniqueID": 265389,
                     "ioValues": [
                         {
@@ -71,6 +97,20 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 191838,
+                    "ap2ID": 887400
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 479807,
+                    "ap2ID": 887400
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
