@@ -1,12 +1,33 @@
 {
     "atomType": "Molecule",
-    "name": "S Belt",
+    "name": "Molecule",
     "x": 0,
     "y": 0,
-    "uniqueID": 683211,
     "ioValues": [],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "GitHubMolecule",
+            "name": "GT2 Belt Approximation",
+            "x": 0.21156661786237188,
+            "y": 0.4061302681992337,
+            "uniqueID": 267973,
+            "projectID": "229325783",
+            "ioValues": [
+                {
+                    "name": "Dist Between Centers",
+                    "ioValue": 40
+                },
+                {
+                    "name": "Sprocket One Size",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Sprocket 2 Size",
+                    "ioValue": 10
+                }
+            ]
+        },
         {
             "atomType": "Output",
             "name": "Output",
@@ -16,5 +37,7 @@
         }
     ],
     "allConnectors": [],
-    "fileTypeVersion": 1
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
+    "circleSegmentSize": 2
 }
