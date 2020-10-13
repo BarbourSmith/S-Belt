@@ -9,8 +9,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "GT2 Belt Approximation",
-            "x": 0.21156661786237188,
-            "y": 0.4061302681992337,
+            "x": 0.2342606149341142,
+            "y": 0.1839080459770115,
             "uniqueID": 267973,
             "projectID": "229325783",
             "ioValues": [
@@ -20,7 +20,7 @@
                 },
                 {
                     "name": "Sprocket One Size",
-                    "ioValue": 10
+                    "ioValue": 11
                 },
                 {
                     "name": "Sprocket 2 Size",
@@ -31,8 +31,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "GT2 Belt Approximation",
-            "x": 0.19399707174231332,
-            "y": 0.6743295019157088,
+            "x": 0.11054172767203513,
+            "y": 0.4137931034482759,
             "uniqueID": 166032,
             "projectID": "229325783",
             "ioValues": [
@@ -42,7 +42,7 @@
                 },
                 {
                     "name": "Sprocket One Size",
-                    "ioValue": 10
+                    "ioValue": 11
                 },
                 {
                     "name": "Sprocket 2 Size",
@@ -53,8 +53,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "GT2 Belt Approximation",
-            "x": 0.3711566617862372,
-            "y": 0.7279693486590038,
+            "x": 0.31698389458272325,
+            "y": 0.5095785440613027,
             "uniqueID": 567284,
             "projectID": "229325783",
             "ioValues": [
@@ -64,7 +64,7 @@
                 },
                 {
                     "name": "Sprocket One Size",
-                    "ioValue": 10
+                    "ioValue": 20
                 },
                 {
                     "name": "Sprocket 2 Size",
