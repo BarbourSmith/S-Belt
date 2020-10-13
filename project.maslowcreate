@@ -90,8 +90,8 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.5161054172767203,
-            "y": 0.47126436781609193,
+            "x": 0.513177159590044,
+            "y": 0.5057471264367817,
             "uniqueID": 781994,
             "ioValues": [
                 {
@@ -177,7 +177,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -47.5
+                    "ioValue": 12
                 },
                 {
                     "name": "zDist",
