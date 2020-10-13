@@ -8,13 +8,60 @@
     "allAtoms": [
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Segment 1",
             "x": 0.2569546120058565,
             "y": 0.5134099616858238,
             "uniqueID": 296327,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.15373352855051245,
+                    "y": 0.49808429118773945,
+                    "uniqueID": 191838,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 83
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.44582723279648606,
+                    "y": 0.5517241379310345,
+                    "uniqueID": 479807,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 67.5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.32723279648609077,
+                    "y": 0.6781609195402298,
+                    "uniqueID": 265389,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 1
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -23,7 +70,15 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 265389,
+                    "ap2ID": 479807
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
